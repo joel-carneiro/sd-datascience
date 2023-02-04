@@ -2,8 +2,12 @@
 
 import os
 
-os.system('cd /home/joel/Documentos/datascience')
+with open('version.txt', 'r') as f:
+	version = int(f.read())
 
 os.system('git add .')
-os.system('git commit -m "att"')
+os.system(f'git commit -m "v{version}.0"')
 os.system('git push')
+
+with open('version.txt', 'w') as f:
+	f.write(str(version + 1))
