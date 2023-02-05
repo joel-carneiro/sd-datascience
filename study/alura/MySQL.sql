@@ -1,0 +1,7 @@
+SELECT CPF AS IDENTIFICADOR, NOME AS NOME FROM tabela_de_clientes;
+
+SELECT CODIGO_DO_PRODUTO AS CODIGO, NOME_DO_PRODUTO AS NOME FROM tabela_de_produtos;
+
+SELECT * FROM tabela_de_produtos WHERE CODIGO_DO_PRODUTO = 1000889;
+
+SELECT * FROM tabela_de_produtos WHERE SABOR = 'Laranja';
