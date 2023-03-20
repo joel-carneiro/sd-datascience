@@ -1,4 +1,4 @@
-# Ciência de Dados | Parte I
+# Ciência de Dados
 
 Este é um repositório que contém minhas anotações e projetos relacionados à ciência de dados.
 
