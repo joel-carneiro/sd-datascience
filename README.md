@@ -1,3 +1,3 @@
 # Ciência de Dados
 
-arquivos antigos de estudos
+antigos arquivos de estudo
